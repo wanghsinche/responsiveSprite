@@ -1,0 +1,54 @@
+@media (min-device-width: 400px){
+	html,body{
+		font-size: 0.5px;
+	}	
+}
+@media (min-device-width: 600px){
+	html,body{
+		font-size: .8px;
+	}	
+}
+
+
+.btn{
+	margin: 10rem;
+	background-image: url('./_dest.png');
+	background-repeat: no-repeat;
+}
+
+.blue-button-hi{
+width: 600rem;
+height: 192rem;
+background-size: auto 1407.81%;
+background-position: 0 0.00%;
+}
+.btn1{
+width: 600rem;
+height: 600rem;
+background-size: auto 450.50%;
+background-position: 0 9.13%;
+}
+.btn2{
+width: 600rem;
+height: 600rem;
+background-size: auto 450.50%;
+background-position: 0 37.66%;
+}
+.eiMdnEXLT{
+width: 607rem;
+height: 607rem;
+background-size: auto 445.30%;
+background-position: 0 66.41%;
+}
+.Perspective-Button-Go-icon{
+width: 512rem;
+height: 512rem;
+background-size: auto 527.93%;
+background-position: 0 91.24%;
+}
+.red-button-hi{
+width: 600rem;
+height: 192rem;
+background-size: auto 1407.81%;
+background-position: 0 100.00%;
+}
