@@ -10,7 +10,7 @@ var padding = 0;
 
 let mypromise = new Promise((resolve, reject) => {
 	fs.readdir('./', (err, data) => {
-		if (err) reject(err);
+		if (err) {reject(err)}
 		resolve(data);
 	});
 });
@@ -19,7 +19,7 @@ mypromise.then((data) => {
 
 	imgFilels = data.filter(v => /png|jpg/.test(v));
 
-	imgFilels.forEach((v, i) => {
+	imgFilels.forEach((v) => {
 		let img = Images(v);
 		infoLs.push({
 			name: v,
@@ -39,7 +39,7 @@ mypromise.then((data) => {
 		quality: 50
 	});
 
-	infoLs.forEach((v, i) => {
+	infoLs.forEach((v) => {
 		css.push(
 			'.' + v.name.split('.')[0] +
 			'{\n' +

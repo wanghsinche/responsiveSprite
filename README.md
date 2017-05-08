@@ -7,7 +7,8 @@
 * 输出每一张单独背景图在雪碧图中的位置，以及应该呈现的大小，均以百分比表示
 * 将这些信息替换到原来的目标css代码，如:  
 
-	``background: url(../img1.png) 100% no-repeat;``  
+	``background: url(../img1.png) no-repeat;``  
+    ``background-size: 100%;``      
 	
 	变成：   
 

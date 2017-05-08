@@ -1,0 +1,41 @@
+@media screen {
+    html{
+        font-size: 4px;
+    }
+}
+@media (max-device-width:600px) {
+    html{
+        font-size: 2px;
+    }
+}
+@media (max-device-width:400px) {
+    html{
+        font-size: 1px;
+    }
+}
+
+.sprite{
+    margin: 5rem;
+    /*background-image: url('./_dest.png'); */
+}
+
+.btn1{display: block;
+    width: 60.0rem;
+    height: 19.1rem;background-repeat: no-repeat;
+background-size: auto 531.77%;
+background-position: 0 0.00%;
+}
+
+.btn2{display: block;
+    width: 60.0rem;
+    height: 19.1rem;background-repeat: no-repeat;
+background-size: auto 531.77%;
+background-position: 0 24.37%;
+}
+
+.btn3{display: block;
+    width: 60.7rem;
+    height: 60.7rem;background-repeat: no-repeat;
+background-size: auto 168.20%;
+background-position: 0 97.58%;
+}
